@@ -61,14 +61,14 @@ const greeting = function (name){
 //Name it finalGreeting.
 
 //Code Here
-
+const greeting = (name) => "Hello, " + name;
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-
+const array = ["apple", "milk", "eggs", "bread"];
 //////////////////PROBLEM 10////////////////////
 
 //Create an object saved to the variable dog.
@@ -77,12 +77,17 @@ const greeting = function (name){
 //and goodBoy (a boolean).
 
 //Code Here
-
+const dog = {
+  name: "spot",
+  color: "black & white",
+  age: 3,
+  goodBoy: true,
+};
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-
+const devMountainClassPet = dog.name;
 //////////////////PROBLEM 11////////////////////
 
 //Write a function called nameCheck that takes in a name parameter. 
@@ -93,7 +98,19 @@ const greeting = function (name){
 // with NAMEPARAM being the name parameter being passed in
 
 // Code here
-
+function nameCheck(NAMEPARAM){
+  if (NAMEPARAM = "Steven"){
+    return "What is up Steven?";
+  }
+  else if {NAMEPARAM = "Bryan"){
+    return "Hey Bryan!";
+  }
+  else {
+    "Cool name, " NAMEPARAM;
+  }
+  }
+  
+}
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called add that takes in two parameters
@@ -101,12 +118,15 @@ const greeting = function (name){
 // The add function should return the two parameters added together
 
 //Code Here
-
+const add = function(num1, num2){
+  return num1 + num2;
+}
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
-
+const mathSum = add(3, 4);
+console.log(mathSum);
 //////////////////PROBLEM 13////////////////////
 
 //Write a function called faveColorFinder that takes in one parameter called color
@@ -117,7 +137,20 @@ const greeting = function (name){
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
-
+function faveColorFinder(color){
+  if (color === "red"){
+    return "red is a great color";
+  }
+  else if (color === "green"){
+    return "green is a solid favorite color";
+  }
+  else if (color === "black"){
+    return "so trendy";
+  }
+  else {
+    return "you need to evaluate your favorite color choice";
+  }
+}
 //////////////////PROBLEM 14////////////////////
 
 let duck = "cute";
