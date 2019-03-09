@@ -187,6 +187,26 @@ let pondScope = ["duck", "realDuck"];
 //////////////////PROBLEM 15////////////////////
 
 //Create a variable called age with your age assigned to you
+/* (Am I supposed to reassign a variable as I have done below or use an object, a function, an array, a loop with this problem?
+  The instructions are very vague.) I could create an object like so:
+  const age ={
+    myAge: 46,
+    addedAge: function(){
+      age.myAge++;
+  }
+}
+age.addedAge();
+console.log(age.myAge)
+
+or I could do a while loop like so:
+
+let age = 46;
+while (age < 47){
+  age++
+}
+
+console.log(age)
+*/
 
 // Code Here
 let age = 46;
@@ -194,12 +214,8 @@ let age = 46;
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-let age = 46;
-while (age < 47){
-  age++
-}
-
-console.log(age)
+age = 46 + 1;
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
+age = 999;
